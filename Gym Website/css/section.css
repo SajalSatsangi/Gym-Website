@@ -1,0 +1,30 @@
+.container {
+    border: 2px solid white;
+    margin: 106px 675px;
+    padding: 40px;
+    width: 35%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai';
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 89%;
+    margin: 30px auto;
+    font-size: 18px;
+}

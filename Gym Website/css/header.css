@@ -1,0 +1,72 @@
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    line-height: 10px;
+    font-size: 11px;
+}
+
+.left img {
+    width: 45px;
+    filter: invert(100%);
+}
+
+.left {
+    text-align: center;
+    margin-left: 10px
+}
+
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 47%;
+    /* border: 2px solid green; */
+}
+
+.navbar {
+    display: inline-block;
+    line-height: 4px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a :active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.btn {
+    margin: 2px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 10px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai';
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
